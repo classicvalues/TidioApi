@@ -1,15 +1,15 @@
 #TidioAPI PHP Class
 
-This class was created to start as fast as possible work with Tidio Api in PHP.
+This class was designed to help get you started working with Tidio Api in PHP as quickly as possible.
 
 ##Usage
-Please use constructor with public key of your Tidio project and proper user details as much accurate as possible.
+Please use constructor with the public key of your Tidio project and the correct user details to the best of your accuracy.
 
-After you created proper TidioAPI object you can use one of methods from our api.
+After you create the proper TidioAPI object you can choose one of the methods from our api.
 
-Please use call method with proper $action api method to run proper action.
+Please use the call method with the proper $action api method so that you can run the proper action.
 
-For example use `identifyUpdate` to update visitor data or `track` to track tracking information about it.
+For example use `identifyUpdate` to update visitor data or `track` to track information the information that you need.
 
 ##Example
 ```php
@@ -24,7 +24,7 @@ $response = $tidio->call('visitor', $data);
 ```
 
 ##More information
-To take a look at whole documentation about Tidio Api please visit https://tidio.co/en/docs
+To take a look at the entire documentation about Tidio Api please visit https://tidio.co/en/docs
 
 ##Credits
 https://tidio.co/en
