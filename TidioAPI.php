@@ -82,7 +82,7 @@ class TidioAPI {
      * Make an remote call to Tidio server
      * @param string $action 'tarck' for example
      * @param array $params Extra data required for used method
-     * @return array
+     * @return object
      */
     public function call($action, $params = null) {
 
