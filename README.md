@@ -11,6 +11,18 @@ Please use call method with proper $action api method to run proper action.
 
 For example use `identifyUpdate` to update visitor data or `track` to track tracking information about it.
 
+##Example
+```php
+$visitor = array(
+    '_email' => 'example@example.net'
+);
+$data = array(
+    "_first_name" => "1"
+);
+$tidio = new TidioAPI('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', $visitor);
+$response = $tidio->call('visitor', $data);
+```
+
 ##More information
 To take a look at whole documentation about Tidio Api please visit https://tidio.co/en/docs
 
